@@ -1,4 +1,3 @@
-
 package projeto.samuel.appcalcularhoraextra;
 
 import java.time.LocalDate;
@@ -7,9 +6,10 @@ import java.time.DayOfWeek;
 import java.util.Locale;
 
 public class Data {
+
     private LocalDate data;
     private DayOfWeek diaSemana;
-    
+
     // Getter para obter a data
     public LocalDate getData() {
         return data;
